@@ -15,6 +15,30 @@
     justify-content: center;
 }
 
+.user {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    color:maroon;
+}
+
+#userEmail {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    color:rgb(0, 0, 0);
+}
+
+.picture {
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.picture:hover {
+    width: 95%;
+}
+
 .content {
     background-color: rgb(253, 191, 191);
     border-radius: 25px;
@@ -28,6 +52,9 @@
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    text-decoration: none;
+    color:maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .second_challenger {
@@ -35,6 +62,10 @@
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    text-decoration: none;
+    color:maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .first_challenger:hover {
@@ -43,4 +74,15 @@
 
 .second_challenger:hover {
     background-color: rgb(255, 47, 47)
+}
+
+.country {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    color:maroon;
+}
+
+.country:hover {
+    background-color: rgb(255, 101, 101);
 }
